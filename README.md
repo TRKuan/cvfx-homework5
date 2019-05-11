@@ -15,6 +15,7 @@
 1. Inputs為一左一右距離相近方向一致的圖片
 2. 使用ORB找到features和matches之後，只留下距離最近的matches
 3. 找homography，做perspective transformation，將兩張圖align在一起
+4. Crop中間80%減少黑色邊框並輸出gif動畫
 
 ![](./align1.jpg)
 
@@ -39,6 +40,7 @@
 4. 去掉背景的matches，僅留下目標物上的matches
 5. 算出rigid transformation並套用
 6. 使用這次算出的圖片與下一張進行以上3~5步
+7. Crop中間80%減少黑色邊框並輸出gif動畫
 
 ![](./align2.jpg)
 
