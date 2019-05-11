@@ -57,8 +57,12 @@
 
 #### 使用Rigid Transformation
 
-這裡使用rigid transformation而非perspective transformation的原因，是因為perspective transformation會將圖片變形，改變圖片所在的平面，使一開始的正面仍然是正面，而不會有我們想要的鏡頭移動的效果。
+這裡使用rigid transformation而非perspective transformation的原因，是因為perspective transformation會將圖片變形，改變圖片所在的平面，使一開始的正面仍然是正面，而不會有我們想要的鏡頭移動的效果。下圖為使用perspective transformation的結果:
 
 ![](./output2_perspective.gif)
+
+#### 拍攝良好的圖片
+
+拍攝良好的input圖片是非常重要的，由於feature matching對於移動造成的變形並不是很robust，每個圖片之間要夠接近才能穩定且持續地找到正確的matches。根據經驗，每張圖片間隔約1~2步為佳。
 
 
