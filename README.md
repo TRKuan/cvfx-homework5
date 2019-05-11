@@ -31,11 +31,11 @@
 ### Method:
 
 1. 拍一連串連續圖片作為inputs
-2. 使用ORB找到features和matches
-4. 手動框出目標物品
-5. 去掉背景的matches，僅留下目標物品上的matches
-6. 算出rigid transformation並套用
-7. 使用這次算出的圖片與下一張進行以上2~4步
+2. 手動框出目標物品
+3. 使用ORB找到features和matches
+4. 去掉背景的matches，僅留下目標物品上的matches
+5. 算出rigid transformation並套用
+6. 使用這次算出的圖片與下一張進行以上3~5步
 
 ![](./align2.jpg)
 
