@@ -54,7 +54,7 @@
 
 ![](./output2_building.gif)
 
-但如果背景較為單純，則不限縮matches的範圍也是可以的
+但如果背景較為單純，則不限縮matches的範圍也是可以的。如下圖:
 
 ![](./output2_cup.gif)
 
