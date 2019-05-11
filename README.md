@@ -47,4 +47,4 @@
 
 找出目標物品並只使用目標物品上的matches進行transform是很重要的。通常的情況下，背景的matches站大多數，因此會根據背景旋轉，造成目標移出範圍。 
 
-![](./output2_.gif)
+![](./output2_building.gif)
