@@ -76,8 +76,8 @@
 
 |||||
 |-|-|-|-|
-|![](./images/0.jpg)|![](./images/1.jpg)|![](./images/2.jpg)|
-|![](./images/4.jpg)|![](./images/5.jpg)|![](./images/6.jpg|
+|![](./images/0.JPG)|![](./images/1.JPG)|![](./images/2.JPG)|
+|![](./images/4.JPG)|![](./images/5.JPG)|
 
 ### Result:
 
