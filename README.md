@@ -66,11 +66,7 @@
 
 ![](./output2_perspective.gif)
 
-#### 拍攝良好的圖片
-
-拍攝良好的input圖片是非常重要的，由於feature matching對於移動造成的變形並不是很robust，每個圖片之間要夠接近才能穩定且持續地找到正確的matches。根據經驗，每張圖片間隔約1~2步為佳。
-
-## Stop Motion
+## Live Photo
 
 ### Input images:
 
@@ -79,6 +75,13 @@
 |![](./images/0.JPG)|![](./images/1.JPG)|![](./images/2.JPG)|
 |![](./images/3.JPG)|![](./images/4.JPG)|![](./images/5.JPG)|
 
+### Method
+我們是以洗手槽當背景，拍照時利用手搖晃裝水的馬克杯造成水面的動態效果。使用六張照片並且利用sift對第一張照片extract features和align。但因為拍照時的手以及拿馬克杯的手有些許移動，導致其與背景有相對移動，因此align出來的結果沒有很理想，但因為背景是白色為主還算是有一致，但有些微扭曲到碗的形狀。
+
 ### Result:
 
 ![](./live.gif)
+
+## Conclusion
+
+拍攝良好的input圖片是非常重要的，由於feature matching對於移動造成的變形並不是很robust，每個圖片之間要夠接近才能穩定且持續地找到正確的matches。而由於硬體與技術上的不足，也會造成雖然兩圖實際距離不遠，但拍出的圖片相似性很低
