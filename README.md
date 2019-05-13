@@ -70,4 +70,8 @@
 
 拍攝良好的input圖片是非常重要的，由於feature matching對於移動造成的變形並不是很robust，每個圖片之間要夠接近才能穩定且持續地找到正確的matches。根據經驗，每張圖片間隔約1~2步為佳。
 
+## Stop Motion
 
+### Result:
+
+![](./live.gif)
