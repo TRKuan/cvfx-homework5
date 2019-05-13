@@ -66,6 +66,12 @@
 
 ![](./output2_perspective.gif)
 
+### Image Processing to Enhance Effect:
+
+這裡裡用影片剪輯軟體，在各個影格之間加入簡單的轉場，對相鄰的影格做blending，使影格之間地轉換能更加流暢。
+
+![](./output2_post.gif)
+
 ## Live Photo
 
 ### Input images:
@@ -96,4 +102,4 @@
 
 ## Conclusion
 
-拍攝良好的input圖片是非常重要的，由於feature matching對於移動造成的變形並不是很robust，每個圖片之間要夠接近才能穩定且持續地找到正確的matches。而由於硬體與技術上的不足，也會造成雖然兩圖實際距離不遠，但拍出的圖片相似性很低
+拍攝良好的input圖片是非常重要的，由於feature matching對於移動造成的變形並不是很robust，每個圖片之間要夠接近才能穩定且持續地找到正確的matches。而由於硬體與技術上的不足，也會造成雖然兩圖實際距離不遠，但拍出的圖片相似性很低。
