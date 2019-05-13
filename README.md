@@ -80,7 +80,7 @@
 1. 拍一連串連續圖片作為inputs
 2. 手動框出目標物
 3. 使用SIFT找到features和matches
-4. 去掉背景的matches，僅留下目標物上的matches
+4. 留下最好的15％的matches
 5. 找homography使第二張圖match第一張，利用homography來做image warping
 6. 使用這次算出的圖片與下一張進行以上3~5步
 7. Crop掉邊緣黑框並輸出gif動畫
